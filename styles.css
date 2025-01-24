@@ -2,23 +2,26 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    line-height: 1.5;
-}
-  
-header, footer {
     text-align: center;
-    background: #333;
-    color: #fff;
-    padding: 1em 0;
+    background-color: #f4f4f4;
 }
-  
+header {
+    background-color: #6200ea;
+    color: white;
+    padding: 20px;
+}
+.logo {
+    margin: 20px auto;
+    width: 100px;
+    height: 100px;
+}
 main {
-    padding: 1em;
+    margin: 20px;
 }
-  
-iframe, video {
-    width: 100%;
-    max-width: 600px;
-    margin: 1em auto;
-    display: block;
+footer {
+    margin-top: 20px;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    font-size: 0.9em;
 }

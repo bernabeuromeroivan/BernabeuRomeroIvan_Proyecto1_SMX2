@@ -1,38 +1,38 @@
 <!DOCTYPE html>
 <html lang="ca">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Les Adiccions</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pàgina Web amb Vídeo i Cançó</title>
 </head>
 <body>
-  <header>
-    <h1>Les Adicciones</h1>
-    <img src="imagenes/logo-adicciones.svg" alt="les adiccions">
-  </header>
-  <main>
-    <section id="video">
-      <h2>El nostre vídeo</h2>
-      
-      <video controls>
-        <source src="video/Ivan bernabeu (1).mp4" type="video/mp4">
-      </video>
-    </section>
-    <section id="informacio">
-      <h2>Sobre el vídeo</h2>
-      <p>El vídeo tracta de les adiccions</p>
-    </section>
-    <section id="musica">
-      <h2>Música de fons</h2>
-      <audio controls>
-        <source src="musica/lost-in-dreams-abstract-chill-downtempo-cinematic-future-beats-270241 (1).mp3" type="audio/mpeg">
-      </audio>
-      <p>Música: "lost-in-dreams-abstract-chill-downtempo-cinematic-future-beats-270241"</p>
-    </section>
-  </main>
-  <footer>
-    <p>&copy; 2025 El Teu Punt de Mira</p>
-  </footer>
+    <header>
+        <img src="/imagenes/logo-adicciones.svg" alt="les adiccions">
+        <h1>La Meva Pàgina de Vídeo</h1>
+    </header>
+
+    <main>
+        <h2>Títol del Vídeo</h2>
+        <div style="margin-top: 20px;">
+            <!-- Vídeo amb etiqueta <video> HTML5 -->
+            <video controls width="560">
+                <source src="/video/Ivan bernabeu (1).mp4" type="video/mp4">
+                <source src="ruta-al-video.ogg" type="video/ogg">
+                El teu navegador no suporta el vídeo en HTML5.
+            </video>
+        </div>
+    </main>
+
+    <footer>
+        <h3>Cançó de fons</h3>
+        <audio controls autoplay loop>
+            <source src="/musica/lost-in-dreams-abstract-chill-downtempo-cinematic-future-beats-270241 (1).mp3" type="audio/mpeg">
+            <source src="ruta-a-la-canco.ogg" type="audio/ogg">
+            El teu navegador no suporta l'etiqueta d'àudio.
+        </audio>
+        <p>Orígen de la cançó: <a href="https://pixabay.com/es/music/late-lost-in-dreams-abstract-chill-downtempo-cinematic-future-beats-270241/" target="_blank">Free Music Archive</a></p>
+            <p>&copy; 2025 El Teu Punt de Mira</p>
+    </footer>
 </body>
 </html>
