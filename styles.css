@@ -25,3 +25,7 @@ footer {
     padding: 10px;
     font-size: 0.9em;
 }
+.header .div2{
+    display: flex;
+    text-align: center;
+}
